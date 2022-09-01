@@ -3,6 +3,12 @@ body {
     box-shadow: 0 12rem 24rem rgba(0, 0, 0, 0.477);
 }
 
+.icon13 {
+    /* margin-top: 10px; */
+    width: 20px;
+    height: 20px;
+}
+
 #codechef {
     background-image: url(../img/codechef.svg);
     width: 2rem;

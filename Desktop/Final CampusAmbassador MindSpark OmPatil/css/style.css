@@ -1096,8 +1096,8 @@ body {
 }
 
 .card__picture--5 {
-    background-image: url(../img/ad.webp);
-    background-image: url(../img/ad.webp);
+    background-image: url(../img/ad.jpg);
+    background-image: url(../img/ad.jpg);
 }
 
 .card__picture--33 {
@@ -1895,7 +1895,7 @@ only screen and (min-width: 125em) {
 .section-stories {
     position: relative;
     padding: 15rem 0;
-    background-color: rgba(176, 151, 252, 0.544);
+    background-color: rgba(176, 151, 252, 0.785);
 }
 
 @media only screen and (max-width: 56.25em) {
