@@ -53,7 +53,7 @@ body {
 
 .heading-1 {
   font-size: 4.5rem;
-  color: #f9f7f6;
+  color: #cc5de8;
   line-height: 1;
 }
 
@@ -61,6 +61,7 @@ body {
   font-size: 4rem;
   font-style: italic;
   line-height: 1;
+  /* color: #cc5de8; */
 }
 
 .heading-2--light {
@@ -73,7 +74,8 @@ body {
 
 .heading-3 {
   font-size: 1.6rem;
-  color: #cc5de8;
+  color: white;
+
   /* text-transform: uppercase; */
 }
 
@@ -127,6 +129,7 @@ body {
   grid-column: sidebar-start / sidebar-end;
   grid-row: 1 / -1;
   display: flex;
+
   justify-content: center;
 }
 
@@ -183,7 +186,7 @@ body {
 .header {
   background-color: #54483A;
   grid-column: full-start / col-end 9;
-  background-image: linear-gradient(rgba(16, 29, 44, 0.83), rgba(16, 29, 44, 0.83)), url(../img/main.jpg);
+  background-image: linear-gradient(rgba(16, 29, 44, 0.83), rgba(16, 29, 44, 0.83)), url(../img/bg\ \(2\).jpg);
   background-size: cover;
   background-position: center;
   padding: 8rem;
@@ -215,8 +218,8 @@ body {
 }
 
 .header__btn {
-  align-self: start;
-  justify-self: start;
+  align-self: center;
+  justify-self: center;
 }
 
 .header__seenon-text {
@@ -342,16 +345,7 @@ body {
   font-size: 1.7rem;
 }
 
-.story__pictures {
-  background-color: #c69963;
-  grid-column: full-start / col-end 4;
-  background-image: linear-gradient(rgba(198, 153, 99, 0.5), rgba(198, 153, 99, 0.5)), url(../img/back.jpg);
-  background-size: cover;
-  display: grid;
-  grid-template-rows: repeat(6, 1fr);
-  grid-template-columns: repeat(6, 1fr);
-  align-items: center;
-}
+
 
 @media only screen and (max-width: 50em) {
   .story__pictures {
@@ -591,7 +585,7 @@ body {
 .footer {
   background-color: #101d2c;
   grid-column: full-start / full-end;
-  padding: 3rem;
+  padding: 8rem;
 }
 
 .nav {
