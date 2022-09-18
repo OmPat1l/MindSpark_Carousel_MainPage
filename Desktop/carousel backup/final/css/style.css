@@ -186,7 +186,7 @@ body {
 .header {
   background-color: #54483A;
   grid-column: full-start / col-end 9;
-  background-image: linear-gradient(rgba(16, 29, 44, 0.83), rgba(16, 29, 44, 0.83)), url(../img/bg\ \(2\).jpg);
+  background-image: linear-gradient(rgba(16, 29, 44, 0.83), rgba(16, 29, 44, 0.83)), url(../img/MSM-BG.jpg);
   background-size: cover;
   background-position: center;
   padding: 8rem;
@@ -415,7 +415,7 @@ body {
   grid-column: center-start / center-end;
   margin: 15rem 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
   grid-gap: 7rem;
 }
 
@@ -424,6 +424,8 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 3.5rem;
+  box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 20%);
+
 }
 
 .home__img {
@@ -446,6 +448,12 @@ body {
   margin: 1rem;
 }
 
+/* 
+.home__name:hover {
+  background-color: #cc5de8;
+
+} */
+
 .home__name {
   text-decoration: none;
   grid-row: 1 / 2;
@@ -456,6 +464,8 @@ body {
   width: 80%;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.6rem;
+  /* overflow: visible !important; */
+  /* position: absolute; */
   text-align: center;
   padding: 1.25rem;
   background-color: #ae3ec9;
@@ -463,6 +473,32 @@ body {
   font-weight: 400;
   transform: translateY(50%);
   border-radius: 15px;
+
+  transition: all .5s;
+}
+
+.home__name_start {
+  border-radius: 15px;
+  /* border-end-end-radius: 0;
+  border-bottom-left-radius: 0; */
+  text-decoration: none;
+  grid-row: 1 / 2;
+  grid-column: 1 / -1;
+  justify-self: center;
+  align-self: start;
+  z-index: 3;
+  width: 80%;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.6rem;
+  overflow: visible !important;
+  /* position: absolute; */
+  text-align: center;
+  padding: 1.25rem;
+  background-color: #ae3ec9;
+  color: #fff;
+  font-weight: 400;
+  transform: translateY(-60%);
+
 }
 
 .home__location,
